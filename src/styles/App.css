@@ -1,10 +1,11 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: 'Oswald';
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+  text-align: center;
 }
 
 .App-header {
@@ -18,13 +19,42 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
-
 .image {
   width: 25%;
   margin: .3em;
+}
+
+.title {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 80px;
+  letter-spacing: 20px;
+  padding-top: .2em;
+  color: white;
+  text-shadow: 3px 3px 3px #000;
+}
+
+.logo {
+  width: 15%;
+}
+
+.jumbotron{
+  background-image: url('../bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.btn {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.roverName {
+  text-transform: uppercase;
 }
